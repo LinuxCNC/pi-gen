@@ -1,0 +1,5 @@
+[pi4]
+kernel=vmlinuz-4.19.71-rt24-v7l+
+force_turbo=1
+
+

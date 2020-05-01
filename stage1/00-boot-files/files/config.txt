@@ -63,3 +63,6 @@ max_framebuffers=2
 
 [all]
 #dtoverlay=vc4-fkms-v3d
+
+[all]
+include config-rt.txt
