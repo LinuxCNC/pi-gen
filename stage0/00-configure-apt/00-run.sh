@@ -10,6 +10,8 @@ else
 	rm -f "${ROOTFS_DIR}/etc/apt/apt.conf.d/51cache"
 fi
 
+echo "APT::Acquire::Retries \"3\";" > "${ROOTFS_DIR}/etc/apt/apt.conf.d/80-retries"
+
 on_chroot apt-key add - < files/raspberrypi.gpg.key
 on_chroot << EOF
 apt-get update
