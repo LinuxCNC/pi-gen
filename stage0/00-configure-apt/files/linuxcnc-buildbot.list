@@ -1,11 +1,11 @@
-# Uncomment the line below to get 2.8-ish packages from buildbot
+# Uncomment the line below to get 2.8 prerelease packages from buildbot
 # The packages may contain sever regressions, consider the implications.
 # Before doing so, learn more about builtbot: http://buildbot.linuxcnc.org/
-deb http://buildbot.linuxcnc.org/ buster 2.8-rtpreempt
+#deb http://buildbot.linuxcnc.org/ buster 2.8-rtpreempt
 ## Uncomment line below then 'apt-get update' to enable 'apt-get source'
 ##deb-src http://buildbot.linuxcnc.org/ buster 2.8-rtpreempt
 
-# Uncomment the line below to get master-ish packages from buildbot
+# Uncomment the line below to get master branch packages from buildbot
 # The packages may contain sever regressions, consider the implications.
 # Before doing so, learn more about builtbot: http://buildbot.linuxcnc.org/
 #deb http://buildbot.linuxcnc.org/ buster master-rtpreempt
