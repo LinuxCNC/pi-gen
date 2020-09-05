@@ -1,0 +1,3 @@
+deb http://linuxcnc.org/ buster base
+# Uncomment line below then 'apt-get update' to enable 'apt-get source'
+#deb-src http://linuxcnc.org/ buster base

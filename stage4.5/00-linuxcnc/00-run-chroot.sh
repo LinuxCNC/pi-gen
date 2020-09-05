@@ -1,13 +1,5 @@
 #!/bin/bash -e
 
-wget -O /tmp/linuxcnc.deb https://media.unpythonic.net/pi4-linuxcnc-pkg/linuxcnc-uspace_2.9.0~pre0_armhf.deb
-wget -O /tmp/linuxcnc-dev.deb https://media.unpythonic.net/pi4-linuxcnc-pkg/linuxcnc-uspace-dev_2.9.0~pre0_armhf.deb
-
-dpkg -i /tmp/linuxcnc.deb /tmp/linuxcnc-dev.deb || true
-apt -f install
-
-rm -f /tmp/linuxcnc.deb /tmp/linuxcnc-dev.deb
-
 # Do raspi-configgy things
 # Sam reports the "desktop" gl driver gives better performance
 raspi-config nonint do_gldriver G2
