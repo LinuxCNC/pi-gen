@@ -1,3 +1,5 @@
 deb http://linuxcnc.org/ buster base
+deb http://linuxcnc.org/ buster 2.8-rtpreempt
 # Uncomment line below then 'apt-get update' to enable 'apt-get source'
 #deb-src http://linuxcnc.org/ buster base
+#deb-src http://linuxcnc.org/ buster 2.8-rtpreempt
